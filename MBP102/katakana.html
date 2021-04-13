@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/katakana.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <title>Japonca Öğren</title>
+</head>
+<body>
+    <header id="follow" style="background-image: url(img/Tokyo_Japan_Rain.jpg); background-position: 10 350;">
+		<a href="index.html" class="logo">あ</a>
+	</header>
+
+
+    <div class="navbar">
+        <ul class="navigation">
+            <li><a href="hiragana.html">Hiragana</a>
+                <dd><a href="hiragana_ders.html">Ders</a></dd>
+                <dd><a href="hiragana_sinav.html">Sınav</a></dd>
+            </li>
+            <li><a href="katakana.html">Katakana</a>
+                <dd><a href="katakana_ders.html">Ders</a></dd>
+                <dd><a href="katakana_sinav.html">Sınav</a></dd>
+            </li>
+        </ul>  
+    </div>
+
+
+    <script>
+        window.onscroll = function() {myFunction()};
+        var header = document.getElementById("follow");
+        var sticky = header.offsetTop;
+   
+        function myFunction() {
+          if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+  
+          } else {
+            header.classList.remove("sticky");
+
+          }
+        }
+    </script>
+</body>
+</html>

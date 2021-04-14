@@ -57,6 +57,7 @@ p{
     position: fixed;
     top: 0;
     width: 100%;
+    transition: 1s;
 }
 header.sticky{
 	padding: 20px 30px;

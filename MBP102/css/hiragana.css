@@ -44,15 +44,20 @@ header .logo{
     font-weight: 500;
 }
 p{
+
     padding: 10px ;
     color: beige;
-    background-color: #ff1547;
     margin-top: 5%;
-    margin-left: 10%;
-    margin-right: 5%;
-    font-size: 16px;
-    font-weight: 600;
+    margin-left: 6%;
+    margin-right: 6%;
+    font-size: 18px;
+    font-weight: 700;
 }    
+.arkpl{
+    background-color: #ff1547;
+    margin-left: 15%;
+    margin-right: 10%;
+}
 .sticky {
     position: fixed;
     top: 0;

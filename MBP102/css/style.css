@@ -1,0 +1,82 @@
+body{
+    font-family: 'Noto Serif JP', serif;
+    margin: 0px;
+}
+header{
+    padding: 2vw 2vw;
+    transition: 0.5s;
+}
+h2{
+    font-size: 3vw;
+}
+header .logo{
+    background-color: #ff1547;
+    padding: 1vw;
+	color:#000000;
+	font-weight: 900;
+	font-size: 36px;
+	text-decoration: none;
+    color: beige;
+}
+.navigation{
+    margin-top: 55%;
+    transition: 1s;
+}
+.navigation li{
+    margin-left: 0px;
+    list-style-type: none;
+    margin-top: 20px;
+}
+.navigation li a{
+    font-weight: 200;
+    font-size: 1.2em;
+    color: gray;
+    text-decoration: none;
+}
+.navigation li dd a{
+    font-weight: 400;
+    font-size: 1.2em;
+    color: black;
+    text-decoration: none;
+}
+.navigation li a:hover{
+    color: black;
+    font-weight: 800;
+}
+p{
+    padding: 10px ;
+    color: beige;
+    background-color: #ff1547;
+    margin-left: 6%;
+    margin-right: 6%;
+    font-size: 1em;
+    font-weight: 700;
+}    
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: 1s;
+}
+header.sticky{
+	padding: 5px 30px;
+	box-shadow:  0 5px 20px rgba(0,0,0,0.5);
+}
+.navbar{
+    position: fixed;
+    top: 160px;
+}
+.arkpl{
+    background-color: #ff1547;
+    margin-left: 15%;
+    margin-right: 10%;
+}
+span{
+    font-size: 3vw;
+}
+img{
+    margin: 15px;
+    border: 2px solid black;
+    width: 5vw;
+    height: 5vw;
+}
